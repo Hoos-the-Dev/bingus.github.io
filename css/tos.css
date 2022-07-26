@@ -1,0 +1,41 @@
+html,body {
+	height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0)
+}
+
+.header {
+    background: linear-gradient(180deg, #11201d 0%, #111b20 100%);
+}
+
+.logo {
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    width: 190px;
+    height: 200px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.icons {
+	color: #fff;
+	transition: all 0.2s;
+	font-size: 45px;
+}
+
+.icons:hover {
+	color: #ccc;
+}
+
+.spacing {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+footer {
+    background: black !important;;
+    padding: 3em !important;
+}
